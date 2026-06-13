@@ -1,0 +1,42 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="BlazeDemoAutomationSuite">
+
+    <!-- Cross Browser - Chrome -->
+    <test name="Cross Browser - Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.CrossBrowserTest"/>
+        </classes>
+    </test>
+
+    <!-- Cross Browser - Firefox -->
+    <test name="Cross Browser - Firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="tests.CrossBrowserTest"/>
+        </classes>
+    </test>
+
+    <!-- Launch Test -->
+    <test name="Launch Test">
+        <classes>
+            <class name="tests.LaunchTest"/>
+        </classes>
+    </test>
+
+    <!-- Search Flight Test -->
+    <test name="Search Flight Test">
+        <classes>
+            <class name="tests.SearchFlightTest"/>
+        </classes>
+    </test>
+
+    <!-- Flight Booking Test -->
+    <test name="Flight Booking Test">
+        <classes>
+            <class name="tests.FlightBookingTest"/>
+        </classes>
+    </test>
+
+</suite>

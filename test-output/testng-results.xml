@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-13T12:31:24 IST" name="BlazeDemoAutomationSuite" finished-at="2026-06-13T12:36:51 IST" duration-ms="327198">
+    <groups>
+    </groups>
+    <test started-at="2026-06-13T12:31:24 IST" name="Cross Browser - Chrome" finished-at="2026-06-13T12:31:37 IST" duration-ms="13023">
+      <class name="tests.CrossBrowserTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.CrossBrowserTest@31190526]" started-at="2026-06-13T12:31:24 IST" name="launchBrowser" finished-at="2026-06-13T12:31:31 IST" duration-ms="7103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyApplicationOnDifferentBrowsers()[pri:0, instance:tests.CrossBrowserTest@31190526]" started-at="2026-06-13T12:31:31 IST" name="verifyApplicationOnDifferentBrowsers" finished-at="2026-06-13T12:31:37 IST" duration-ms="5077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationOnDifferentBrowsers -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.CrossBrowserTest@31190526]" started-at="2026-06-13T12:31:37 IST" name="closeBrowser" finished-at="2026-06-13T12:31:37 IST" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.CrossBrowserTest -->
+    </test> <!-- Cross Browser - Chrome -->
+    <test started-at="2026-06-13T12:31:38 IST" name="Cross Browser - Firefox" finished-at="2026-06-13T12:31:55 IST" duration-ms="17210">
+      <class name="tests.CrossBrowserTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.CrossBrowserTest@43015c69]" started-at="2026-06-13T12:31:38 IST" name="launchBrowser" finished-at="2026-06-13T12:31:48 IST" duration-ms="10553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyApplicationOnDifferentBrowsers()[pri:0, instance:tests.CrossBrowserTest@43015c69]" started-at="2026-06-13T12:31:48 IST" name="verifyApplicationOnDifferentBrowsers" finished-at="2026-06-13T12:31:53 IST" duration-ms="5031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationOnDifferentBrowsers -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.CrossBrowserTest@43015c69]" started-at="2026-06-13T12:31:54 IST" name="closeBrowser" finished-at="2026-06-13T12:31:55 IST" duration-ms="1499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.CrossBrowserTest -->
+    </test> <!-- Cross Browser - Firefox -->
+    <test started-at="2026-06-13T12:31:55 IST" name="Launch Test" finished-at="2026-06-13T12:32:03 IST" duration-ms="8252">
+      <class name="tests.LaunchTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tests.LaunchTest@791d1f8b]" started-at="2026-06-13T12:31:55 IST" name="launchBrowser" finished-at="2026-06-13T12:31:59 IST" duration-ms="3583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyApplicationLaunch()[pri:0, instance:tests.LaunchTest@791d1f8b]" started-at="2026-06-13T12:31:59 IST" name="verifyApplicationLaunch" finished-at="2026-06-13T12:32:03 IST" duration-ms="4042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationLaunch -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LaunchTest@791d1f8b]" started-at="2026-06-13T12:32:03 IST" name="closeBrowser" finished-at="2026-06-13T12:32:03 IST" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.LaunchTest -->
+    </test> <!-- Launch Test -->
+    <test started-at="2026-06-13T12:32:03 IST" name="Search Flight Test" finished-at="2026-06-13T12:32:58 IST" duration-ms="54743">
+      <class name="tests.SearchFlightTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tests.SearchFlightTest@cd1e646]" started-at="2026-06-13T12:32:05 IST" name="launchBrowser" finished-at="2026-06-13T12:32:08 IST" duration-ms="2648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyFlightSearch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.SearchFlightTest@cd1e646]" started-at="2026-06-13T12:32:08 IST" name="verifyFlightSearch" data-provider="bookingData" finished-at="2026-06-13T12:32:18 IST" duration-ms="10126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Boston]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vinay Kumar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[East Delhi]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[831001]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[7.51111E+15]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2028]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Vinay Kumar]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightSearch -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.SearchFlightTest@cd1e646]" started-at="2026-06-13T12:32:18 IST" name="closeBrowser" finished-at="2026-06-13T12:32:18 IST" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tests.SearchFlightTest@cd1e646]" started-at="2026-06-13T12:32:18 IST" name="launchBrowser" finished-at="2026-06-13T12:32:21 IST" duration-ms="2496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyFlightSearch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.SearchFlightTest@cd1e646]" started-at="2026-06-13T12:32:21 IST" name="verifyFlightSearch" data-provider="bookingData" finished-at="2026-06-13T12:32:31 IST" duration-ms="10050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ajay Nagar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[VijayNagar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[827012]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[6.75898E+15]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2029]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Ajay Nagar]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightSearch -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.SearchFlightTest@cd1e646]" started-at="2026-06-13T12:32:31 IST" name="closeBrowser" finished-at="2026-06-13T12:32:32 IST" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tests.SearchFlightTest@cd1e646]" started-at="2026-06-13T12:32:32 IST" name="launchBrowser" finished-at="2026-06-13T12:32:34 IST" duration-ms="2673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyFlightSearch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.SearchFlightTest@cd1e646]" started-at="2026-06-13T12:32:34 IST" name="verifyFlightSearch" data-provider="bookingData" finished-at="2026-06-13T12:32:44 IST" duration-ms="10192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Portland]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rohit]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bengaluru]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Idore]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[MdhyaPradesh]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[201308]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[9.75457E+16]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2030]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Rohit]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightSearch -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.SearchFlightTest@cd1e646]" started-at="2026-06-13T12:32:45 IST" name="closeBrowser" finished-at="2026-06-13T12:32:45 IST" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tests.SearchFlightTest@cd1e646]" started-at="2026-06-13T12:32:45 IST" name="launchBrowser" finished-at="2026-06-13T12:32:48 IST" duration-ms="2547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyFlightSearch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.SearchFlightTest@cd1e646]" started-at="2026-06-13T12:32:48 IST" name="verifyFlightSearch" data-provider="bookingData" finished-at="2026-06-13T12:32:58 IST" duration-ms="10041" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mexico City]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dublin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vikram Singh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Punjab]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Noida]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[MadhyaPradesh]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[201310]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[5.86577E+14]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2031]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Vikram Singh]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightSearch -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.SearchFlightTest@cd1e646]" started-at="2026-06-13T12:32:58 IST" name="closeBrowser" finished-at="2026-06-13T12:32:58 IST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.SearchFlightTest -->
+    </test> <!-- Search Flight Test -->
+    <test started-at="2026-06-13T12:32:58 IST" name="Flight Booking Test" finished-at="2026-06-13T12:36:51 IST" duration-ms="233145">
+      <class name="tests.FlightBookingTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tests.FlightBookingTest@31edaa7d]" started-at="2026-06-13T12:32:58 IST" name="launchBrowser" finished-at="2026-06-13T12:33:02 IST" duration-ms="3148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyFlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@31edaa7d]" started-at="2026-06-13T12:33:02 IST" name="verifyFlightBooking" data-provider="bookingData" finished-at="2026-06-13T12:33:57 IST" duration-ms="55103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Boston]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vinay Kumar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[East Delhi]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[831001]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[7.51111E+15]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2028]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Vinay Kumar]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightBooking -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.FlightBookingTest@31edaa7d]" started-at="2026-06-13T12:33:57 IST" name="closeBrowser" finished-at="2026-06-13T12:33:57 IST" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tests.FlightBookingTest@31edaa7d]" started-at="2026-06-13T12:33:57 IST" name="launchBrowser" finished-at="2026-06-13T12:34:00 IST" duration-ms="2615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyFlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@31edaa7d]" started-at="2026-06-13T12:34:00 IST" name="verifyFlightBooking" data-provider="bookingData" finished-at="2026-06-13T12:34:55 IST" duration-ms="54813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ajay Nagar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[VijayNagar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[827012]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[6.75898E+15]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2029]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Ajay Nagar]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightBooking -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.FlightBookingTest@31edaa7d]" started-at="2026-06-13T12:34:55 IST" name="closeBrowser" finished-at="2026-06-13T12:34:56 IST" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tests.FlightBookingTest@31edaa7d]" started-at="2026-06-13T12:34:56 IST" name="launchBrowser" finished-at="2026-06-13T12:34:58 IST" duration-ms="2893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyFlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@31edaa7d]" started-at="2026-06-13T12:34:58 IST" name="verifyFlightBooking" data-provider="bookingData" finished-at="2026-06-13T12:35:53 IST" duration-ms="54470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Portland]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rohit]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bengaluru]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Idore]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[MdhyaPradesh]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[201308]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[9.75457E+16]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2030]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Rohit]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightBooking -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.FlightBookingTest@31edaa7d]" started-at="2026-06-13T12:35:53 IST" name="closeBrowser" finished-at="2026-06-13T12:35:54 IST" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tests.FlightBookingTest@31edaa7d]" started-at="2026-06-13T12:35:54 IST" name="launchBrowser" finished-at="2026-06-13T12:35:57 IST" duration-ms="2965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyFlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@31edaa7d]" started-at="2026-06-13T12:35:57 IST" name="verifyFlightBooking" data-provider="bookingData" finished-at="2026-06-13T12:36:51 IST" duration-ms="54086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mexico City]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dublin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vikram Singh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Punjab]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Noida]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[MadhyaPradesh]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[201310]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[5.86577E+14]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2031]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Vikram Singh]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightBooking -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.FlightBookingTest@31edaa7d]" started-at="2026-06-13T12:36:51 IST" name="closeBrowser" finished-at="2026-06-13T12:36:51 IST" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.FlightBookingTest -->
+    </test> <!-- Flight Booking Test -->
+  </suite> <!-- BlazeDemoAutomationSuite -->
+</testng-results>

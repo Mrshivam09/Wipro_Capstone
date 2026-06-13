@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-BlazeDemoAutomationSuite" class="navigator-link">
+              <span class="suite-name border-passed">BlazeDemoAutomationSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-BlazeDemoAutomationSuite" class="navigator-link ">
+                    <span>C:\Users\shiva\OneDrive\Desktop\Capstone Project\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-BlazeDemoAutomationSuite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-BlazeDemoAutomationSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-BlazeDemoAutomationSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-BlazeDemoAutomationSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-BlazeDemoAutomationSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-BlazeDemoAutomationSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BlazeDemoAutomationSuite" class="hide-methods passed suite-BlazeDemoAutomationSuite"> (hide)</a> <!-- hide-methods passed suite-BlazeDemoAutomationSuite -->
+                      <a href="#" panel-name="suite-BlazeDemoAutomationSuite" class="show-methods passed suite-BlazeDemoAutomationSuite"> (show)</a> <!-- show-methods passed suite-BlazeDemoAutomationSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-BlazeDemoAutomationSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemoAutomationSuite" title="tests.LaunchTest" class="method navigator-link" hash-for-method="verifyApplicationLaunch">verifyApplicationLaunch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemoAutomationSuite" title="tests.CrossBrowserTest" class="method navigator-link" hash-for-method="verifyApplicationOnDifferentBrowsers">verifyApplicationOnDifferentBrowsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemoAutomationSuite" title="tests.CrossBrowserTest" class="method navigator-link" hash-for-method="verifyApplicationOnDifferentBrowsers">verifyApplicationOnDifferentBrowsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemoAutomationSuite" title="tests.FlightBookingTest" class="method navigator-link" hash-for-method="verifyFlightBooking(Portland, London, Rohit, Bengaluru, Idore, MdhyaPradesh, 201308, Visa, 9.75457E+16, 8, 2030, Rohit, ...)">verifyFlightBooking(Portland, London, Rohit, Bengaluru, Idore, MdhyaPradesh, 201308, Visa, 9.75457E+16, 8, 2030, Rohit, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemoAutomationSuite" title="tests.FlightBookingTest" class="method navigator-link" hash-for-method="verifyFlightBooking(Boston, London, Vinay Kumar, East Delhi, Delhi, Delhi, 831001, Visa, 7.51111E+15, 12, 2028, Vinay Ku...)">verifyFlightBooking(Boston, London, Vinay Kumar, East Delhi, Delhi, Delhi, 831001, Visa, 7.51111E+15, 12, 2028, Vinay Ku...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemoAutomationSuite" title="tests.FlightBookingTest" class="method navigator-link" hash-for-method="verifyFlightBooking(Mexico City, Dublin, Vikram Singh, Punjab, Noida, MadhyaPradesh, 201310, Visa, 5.86577E+14, 11, 2031...)">verifyFlightBooking(Mexico City, Dublin, Vikram Singh, Punjab, Noida, MadhyaPradesh, 201310, Visa, 5.86577E+14, 11, 2031...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemoAutomationSuite" title="tests.FlightBookingTest" class="method navigator-link" hash-for-method="verifyFlightBooking(Paris, Rome, Ajay Nagar, VijayNagar, Delhi, Delhi, 827012, Visa, 6.75898E+15, 8, 2029, Ajay Nagar, 2)">verifyFlightBooking(Paris, Rome, Ajay Nagar, VijayNagar, Delhi, Delhi, 827012, Visa, 6.75898E+15, 8, 2029, Ajay Nagar, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemoAutomationSuite" title="tests.SearchFlightTest" class="method navigator-link" hash-for-method="verifyFlightSearch(Paris, Rome, Ajay Nagar, VijayNagar, Delhi, Delhi, 827012, Visa, 6.75898E+15, 8, 2029, Ajay Nagar, 2)">verifyFlightSearch(Paris, Rome, Ajay Nagar, VijayNagar, Delhi, Delhi, 827012, Visa, 6.75898E+15, 8, 2029, Ajay Nagar, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemoAutomationSuite" title="tests.SearchFlightTest" class="method navigator-link" hash-for-method="verifyFlightSearch(Boston, London, Vinay Kumar, East Delhi, Delhi, Delhi, 831001, Visa, 7.51111E+15, 12, 2028, Vinay Ku...)">verifyFlightSearch(Boston, London, Vinay Kumar, East Delhi, Delhi, Delhi, 831001, Visa, 7.51111E+15, 12, 2028, Vinay Ku...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemoAutomationSuite" title="tests.SearchFlightTest" class="method navigator-link" hash-for-method="verifyFlightSearch(Portland, London, Rohit, Bengaluru, Idore, MdhyaPradesh, 201308, Visa, 9.75457E+16, 8, 2030, Rohit, ...)">verifyFlightSearch(Portland, London, Rohit, Bengaluru, Idore, MdhyaPradesh, 201308, Visa, 9.75457E+16, 8, 2030, Rohit, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemoAutomationSuite" title="tests.SearchFlightTest" class="method navigator-link" hash-for-method="verifyFlightSearch(Mexico City, Dublin, Vikram Singh, Punjab, Noida, MadhyaPradesh, 201310, Visa, 5.86577E+14, 11, 2031...)">verifyFlightSearch(Mexico City, Dublin, Vikram Singh, Punjab, Noida, MadhyaPradesh, 201310, Visa, 5.86577E+14, 11, 2031...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BlazeDemoAutomationSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BlazeDemoAutomationSuite" class="panel BlazeDemoAutomationSuite">
+          <div class="suite-BlazeDemoAutomationSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LaunchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyApplicationLaunch">
+                  </a> <!-- verifyApplicationLaunch -->
+                  <span class="method-name">verifyApplicationLaunch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BlazeDemoAutomationSuite-class-passed -->
+          <div class="suite-BlazeDemoAutomationSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SearchFlightTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFlightSearch(Paris, Rome, Ajay Nagar, VijayNagar, Delhi, Delhi, 827012, Visa, 6.75898E+15, 8, 2029, Ajay Nagar, 2)">
+                  </a> <!-- verifyFlightSearch(Paris, Rome, Ajay Nagar, VijayNagar, Delhi, Delhi, 827012, Visa, 6.75898E+15, 8, 2029, Ajay Nagar, 2) -->
+                  <span class="method-name">verifyFlightSearch</span>
+                  <span class="parameters">(Paris,Rome,Ajay Nagar,VijayNagar,Delhi,Delhi,827012,Visa,6.75898E+15,8,2029,Ajay Nagar,2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFlightSearch(Boston, London, Vinay Kumar, East Delhi, Delhi, Delhi, 831001, Visa, 7.51111E+15, 12, 2028, Vinay Ku...)">
+                  </a> <!-- verifyFlightSearch(Boston, London, Vinay Kumar, East Delhi, Delhi, Delhi, 831001, Visa, 7.51111E+15, 12, 2028, Vinay Ku...) -->
+                  <span class="method-name">verifyFlightSearch</span>
+                  <span class="parameters">(Boston,London,Vinay Kumar,East Delhi,Delhi,Delhi,831001,Visa,7.51111E+15,12,2028,Vinay Kumar,1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFlightSearch(Portland, London, Rohit, Bengaluru, Idore, MdhyaPradesh, 201308, Visa, 9.75457E+16, 8, 2030, Rohit, ...)">
+                  </a> <!-- verifyFlightSearch(Portland, London, Rohit, Bengaluru, Idore, MdhyaPradesh, 201308, Visa, 9.75457E+16, 8, 2030, Rohit, ...) -->
+                  <span class="method-name">verifyFlightSearch</span>
+                  <span class="parameters">(Portland,London,Rohit,Bengaluru,Idore,MdhyaPradesh,201308,Visa,9.75457E+16,8,2030,Rohit,3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFlightSearch(Mexico City, Dublin, Vikram Singh, Punjab, Noida, MadhyaPradesh, 201310, Visa, 5.86577E+14, 11, 2031...)">
+                  </a> <!-- verifyFlightSearch(Mexico City, Dublin, Vikram Singh, Punjab, Noida, MadhyaPradesh, 201310, Visa, 5.86577E+14, 11, 2031...) -->
+                  <span class="method-name">verifyFlightSearch</span>
+                  <span class="parameters">(Mexico City,Dublin,Vikram Singh,Punjab,Noida,MadhyaPradesh,201310,Visa,5.86577E+14,11,2031,Vikram Singh,4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BlazeDemoAutomationSuite-class-passed -->
+          <div class="suite-BlazeDemoAutomationSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CrossBrowserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyApplicationOnDifferentBrowsers">
+                  </a> <!-- verifyApplicationOnDifferentBrowsers -->
+                  <span class="method-name">verifyApplicationOnDifferentBrowsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyApplicationOnDifferentBrowsers">
+                  </a> <!-- verifyApplicationOnDifferentBrowsers -->
+                  <span class="method-name">verifyApplicationOnDifferentBrowsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BlazeDemoAutomationSuite-class-passed -->
+          <div class="suite-BlazeDemoAutomationSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.FlightBookingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFlightBooking(Portland, London, Rohit, Bengaluru, Idore, MdhyaPradesh, 201308, Visa, 9.75457E+16, 8, 2030, Rohit, ...)">
+                  </a> <!-- verifyFlightBooking(Portland, London, Rohit, Bengaluru, Idore, MdhyaPradesh, 201308, Visa, 9.75457E+16, 8, 2030, Rohit, ...) -->
+                  <span class="method-name">verifyFlightBooking</span>
+                  <span class="parameters">(Portland,London,Rohit,Bengaluru,Idore,MdhyaPradesh,201308,Visa,9.75457E+16,8,2030,Rohit,3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFlightBooking(Boston, London, Vinay Kumar, East Delhi, Delhi, Delhi, 831001, Visa, 7.51111E+15, 12, 2028, Vinay Ku...)">
+                  </a> <!-- verifyFlightBooking(Boston, London, Vinay Kumar, East Delhi, Delhi, Delhi, 831001, Visa, 7.51111E+15, 12, 2028, Vinay Ku...) -->
+                  <span class="method-name">verifyFlightBooking</span>
+                  <span class="parameters">(Boston,London,Vinay Kumar,East Delhi,Delhi,Delhi,831001,Visa,7.51111E+15,12,2028,Vinay Kumar,1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFlightBooking(Mexico City, Dublin, Vikram Singh, Punjab, Noida, MadhyaPradesh, 201310, Visa, 5.86577E+14, 11, 2031...)">
+                  </a> <!-- verifyFlightBooking(Mexico City, Dublin, Vikram Singh, Punjab, Noida, MadhyaPradesh, 201310, Visa, 5.86577E+14, 11, 2031...) -->
+                  <span class="method-name">verifyFlightBooking</span>
+                  <span class="parameters">(Mexico City,Dublin,Vikram Singh,Punjab,Noida,MadhyaPradesh,201310,Visa,5.86577E+14,11,2031,Vikram Singh,4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFlightBooking(Paris, Rome, Ajay Nagar, VijayNagar, Delhi, Delhi, 827012, Visa, 6.75898E+15, 8, 2029, Ajay Nagar, 2)">
+                  </a> <!-- verifyFlightBooking(Paris, Rome, Ajay Nagar, VijayNagar, Delhi, Delhi, 827012, Visa, 6.75898E+15, 8, 2029, Ajay Nagar, 2) -->
+                  <span class="method-name">verifyFlightBooking</span>
+                  <span class="parameters">(Paris,Rome,Ajay Nagar,VijayNagar,Delhi,Delhi,827012,Visa,6.75898E+15,8,2029,Ajay Nagar,2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BlazeDemoAutomationSuite-class-passed -->
+        </div> <!-- panel BlazeDemoAutomationSuite -->
+        <div panel-name="test-xml-BlazeDemoAutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\shiva\OneDrive\Desktop\Capstone Project\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;BlazeDemoAutomationSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Cross Browser - Chrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CrossBrowserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Cross Browser - Chrome --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Cross Browser - Firefox&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CrossBrowserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Cross Browser - Firefox --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Launch Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.LaunchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Launch Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Search Flight Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SearchFlightTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search Flight Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Flight Booking Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.FlightBookingTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Flight Booking Test --&gt;
+&lt;/suite&gt; &lt;!-- BlazeDemoAutomationSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BlazeDemoAutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BlazeDemoAutomationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Cross Browser - Chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Cross Browser - Firefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Launch Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search Flight Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Flight Booking Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BlazeDemoAutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BlazeDemoAutomationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BlazeDemoAutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BlazeDemoAutomationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BlazeDemoAutomationSuite');
+function tableData_BlazeDemoAutomationSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyFlightBooking')
+data.setCell(0, 2, 'tests.FlightBookingTest')
+data.setCell(0, 3, 55103);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyFlightBooking')
+data.setCell(1, 2, 'tests.FlightBookingTest')
+data.setCell(1, 3, 54813);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyFlightBooking')
+data.setCell(2, 2, 'tests.FlightBookingTest')
+data.setCell(2, 3, 54470);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyFlightBooking')
+data.setCell(3, 2, 'tests.FlightBookingTest')
+data.setCell(3, 3, 54086);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyFlightSearch')
+data.setCell(4, 2, 'tests.SearchFlightTest')
+data.setCell(4, 3, 10192);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyFlightSearch')
+data.setCell(5, 2, 'tests.SearchFlightTest')
+data.setCell(5, 3, 10126);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyFlightSearch')
+data.setCell(6, 2, 'tests.SearchFlightTest')
+data.setCell(6, 3, 10050);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyFlightSearch')
+data.setCell(7, 2, 'tests.SearchFlightTest')
+data.setCell(7, 3, 10041);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyApplicationOnDifferentBrowsers')
+data.setCell(8, 2, 'tests.CrossBrowserTest')
+data.setCell(8, 3, 5077);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyApplicationOnDifferentBrowsers')
+data.setCell(9, 2, 'tests.CrossBrowserTest')
+data.setCell(9, 3, 5031);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyApplicationLaunch')
+data.setCell(10, 2, 'tests.LaunchTest')
+data.setCell(10, 3, 4042);
+window.suiteTableData['BlazeDemoAutomationSuite']= { tableData: data, tableDiv: 'times-div-BlazeDemoAutomationSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-BlazeDemoAutomationSuite">
+              </div> <!-- times-div-BlazeDemoAutomationSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BlazeDemoAutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BlazeDemoAutomationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BlazeDemoAutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BlazeDemoAutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CrossBrowserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyApplicationOnDifferentBrowsers</span>
+                <span class="method-start">7105 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">12407 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(firefox)</span>
+                <span class="method-start">13580 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyApplicationOnDifferentBrowsers</span>
+                <span class="method-start">24133 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">29286 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LaunchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">30850 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyApplicationLaunch</span>
+                <span class="method-start">34433 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">38639 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchFlightTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">40603 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFlightSearch(Boston, London, Vinay Kumar, East Delhi, Delhi, Delhi, 831001, Visa, 7.51111E+15, 12, 2028, Vinay Ku...)</span>
+                <span class="method-start">43251 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">53540 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">54023 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFlightSearch(Paris, Rome, Ajay Nagar, VijayNagar, Delhi, Delhi, 827012, Visa, 6.75898E+15, 8, 2029, Ajay Nagar, 2)</span>
+                <span class="method-start">56519 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">66715 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">67192 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFlightSearch(Portland, London, Rohit, Bengaluru, Idore, MdhyaPradesh, 201308, Visa, 9.75457E+16, 8, 2030, Rohit, ...)</span>
+                <span class="method-start">69865 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">80232 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">80699 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFlightSearch(Mexico City, Dublin, Vikram Singh, Punjab, Noida, MadhyaPradesh, 201310, Visa, 5.86577E+14, 11, 2031...)</span>
+                <span class="method-start">83246 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">93447 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.FlightBookingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">94042 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFlightBooking(Boston, London, Vinay Kumar, East Delhi, Delhi, Delhi, 831001, Visa, 7.51111E+15, 12, 2028, Vinay Ku...)</span>
+                <span class="method-start">97190 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">152463 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">153097 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFlightBooking(Paris, Rome, Ajay Nagar, VijayNagar, Delhi, Delhi, 827012, Visa, 6.75898E+15, 8, 2029, Ajay Nagar, 2)</span>
+                <span class="method-start">155712 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">210688 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">211211 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFlightBooking(Portland, London, Rohit, Bengaluru, Idore, MdhyaPradesh, 201308, Visa, 9.75457E+16, 8, 2030, Rohit, ...)</span>
+                <span class="method-start">214104 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">268733 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">269294 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFlightBooking(Mexico City, Dublin, Vikram Singh, Punjab, Noida, MadhyaPradesh, 201310, Visa, 5.86577E+14, 11, 2031...)</span>
+                <span class="method-start">272259 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">326509 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
